@@ -79,7 +79,7 @@
     border: none;
     box-shadow: none;
     background-color: $color-button;
-    color: $color-card-backgroung;
+    color: $color-card-background;
     border-radius: 5px;
     width: 100%;
     height: 40px;
@@ -87,12 +87,12 @@
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
-  }
 
-  &__button:hover {
-    border: 1px solid $color-button;
-    background-color: $color-card-backgroung;
-    cursor: pointer;
-    color: $color-button;
+    &:hover {
+      border: 1px solid $color-button;
+      background-color: $color-card-background;
+      cursor: pointer;
+      color: $color-button;
+    }
   }
 }
